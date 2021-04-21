@@ -1,0 +1,23 @@
+body {
+    background: url(img/cover3.jpg);
+  /*background-repeat: no-repeat;*/
+  background-size: 100%;
+}
+
+#login {
+    margin-left: 50%; 
+    margin-top: 15%;
+}
+
+#title {
+    color: white; 
+    text-align: center;  
+    padding-top: -15%;  
+}
+
+form {
+    padding-top: 15px; 
+    margin-left: 55%; 
+    width: 35%; 
+    
+}
