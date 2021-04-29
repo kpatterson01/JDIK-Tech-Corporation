@@ -1,0 +1,100 @@
+body {
+    margin: 0; 
+    background-color: #ebf1f2; 
+    overflow-x: hidden; 
+   
+}
+#banner {
+    background-image: url("stars.jpg"); 
+    background-repeat: no-repeat; 
+    /*background-color: lightsalmon; */
+    color: white; 
+    height: 25%; 
+    text-align: center; 
+    font-weight: bold; 
+    width: 100%; 
+}
+
+#title {
+    padding-top: 75px; 
+    font-size: 50px; 
+    text-decoration: underline;
+}
+
+#motto {
+    font-size: 25px; 
+    text-decoration: none; 
+}
+
+#name {
+    color: #f1f1f1; 
+}
+/* Style the sidebar - fixed full height */
+.sidebar {
+    margin-top: 205px; 
+    height: 75%; 
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+  
+  /* Style sidebar links */
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* Style links on mouse-over */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style the main content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+  
+  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+ #annc {
+     padding-left: 26%; 
+     font-weight: bold; 
+     background-color: lightyellow; 
+     margin-bottom: -150px; 
+    
+
+ }
+
+ #annc-title {
+     font-size: 25px; 
+ }
+
+ #fac {
+     padding-left: 25%; 
+     font-weight: bold; 
+     margin-top: 155px; 
+     margin-bottom: -140px; 
+ }
+
+ #msg {
+     padding-left: 26%; 
+     padding-top: 10%; 
+     margin-bottom: -300px; 
+ }
+
+ #student-title {
+     padding-left: 50%; 
+ }
